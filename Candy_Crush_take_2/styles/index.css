@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost", sans-serif;
+}
+
+body{
+    background-color: white;
+    margin-top: 0%;
+    
+}
+
+main{    
+    background-color: #EEEEEEFF;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33.6%;   
+    margin-right: 33.6%;  
+}
+
+a{
+    text-decoration: none;
+    color: #00b67d;
+}
+ul{
+    background-color: white;
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    background-color: #f9f6f1;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.drop_down select{
+    appearance: none;
+    padding: 10px 90px 10px 10px;
+    border-color: #bebaba;
+    border-radius: 4px;
+    color: #00b67d;
+    margin-top: 3px;
+}
+
+.drop_down{
+    position: relative;
+}
+
+.drop_down span{
+    color: black;
+    position: absolute;
+    right:12px;
+    top:14px;
+    font-size: 11px;
+}
+
+
+
+
+section {
+    background-color: #00b67d;
+    text-align: center;
+}
+
+
+.banner_img{
+    width: 100%;
+}
+
+
+.section_p{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color:white;
+    font-size: 18px;
+    word-spacing: 1px;
+    
+}
+
+.search_bar{
+    border-radius: 30px;
+    padding: 3%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border: white;
+    width: 90%;  
+
+}
+
+.search_bar::placeholder{
+    padding-left: 6%;
+    font-size: 15px;
+}
+
+.seach_icon_placing    {position: relative;}
+
+.seach_icon_placing span{
+    position: absolute;
+    left:5%;
+    top:12%;
+}
+
+.seach_icon_placing input:not(:placeholder-shown) +span{
+    display: none;
+}
+
+.seach_icon{
+    display: inline-block; 
+    transform: scaleX(-1);
+    font-size: 30px;
+    color: #656363;
+}
+
+
+
+
+
+/* ------------------ top content finished ----------------*/
+
+.first_section{
+    width: 100%;
+    box-shadow: 0px 8px 5px -5px #aba7a7;
+}
+
+.first_section_p{
+    margin-top: 11%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+.list_design{
+    padding-left: 6%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 7%;
+}
+
+.list_design li{
+    padding-top: 10%;
+    padding-bottom: 8%;
+    
+}
+
+/* ------------------ top content finished ----------------*/
+
+
+.second_section{
+    width: 100%;
+}
+
+
+.topic{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.player_guide{
+    margin:0%;
+    padding-left: 4%;
+    font-weight: 500;
+}
+
+
+.second_inner_section{
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    padding-top:4%;
+    padding-bottom: 3%;
+    box-shadow: 0px 3px 4px #aba7a7;
+}
+
+
+.Phones{
+    display: flex;     
+}
+
+.button_phone.ANDROID{
+    border-bottom:2px solid #00b67d; 
+}
+
+
+.button_phone{
+    background-color: white;
+    border: none;
+    color:#B4B1B1 ;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.line_design{
+    width: 100%;
+    display:block;
+    border-bottom: 2px solid #B4B1B1;
+    margin-bottom: 10%;    
+}
+
+.android_design{
+    padding-left: 7%;    
+}
+
+.android_design li{
+    padding-bottom: 14%;
+}
+
+.button_design{
+    text-align: center;
+}
+
+.load_more_button{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #00b67d;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
